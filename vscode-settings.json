@@ -1,0 +1,275 @@
+{
+  // vscode默认启用了根据文件类型自动设置tabsize的选项
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "trailing",
+  "editor.fontFamily": "Cascadia Code, Fira Code, Source Code Pro, JetBrains Mono, Meslo LG S DZ for Powerline, Menlo, Monaco, 'Courier New', monospace",
+  "editor.cursorBlinking": "smooth",
+  "editor.multiCursorModifier": "ctrlCmd",
+  //保存自动格式化
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.fontLigatures": true,
+  "editor.lineNumbers": "on",
+  "editor.hover.delay": 5000,
+  "editor.indentSize": "tabSize",
+  "editor.tabCompletion": "on",
+  // 是否允许自定义的snippet片段提示,比如自定义的vue片段开启后就可以智能提示
+  "editor.snippetSuggestions": "top",
+  "editor.wordSeparators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": false,
+    "source.organizeImports": false
+  },
+  "editor.renderControlCharacters": true,
+  "editor.foldingMaximumRegions": 10000,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "afterDelay",
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  // #让函数(名)和后面的括号之间加个空格
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "cSpell.userWords": [
+    "Alipay",
+    "aolin",
+    "appinfo",
+    "blackvip",
+    "Brotli",
+    "Cascadia",
+    "checklogin",
+    "cnpm",
+    "createtime",
+    "datetime",
+    "devtool",
+    "dont",
+    "echarts",
+    "ehome",
+    "esbenp",
+    "esbuild",
+    "filesize",
+    "Fira",
+    "FONTON",
+    "foton",
+    "ftej",
+    "guanlian",
+    "kuanghua",
+    "Lazyload",
+    "linebreak",
+    "linkhomepage",
+    "liuyun",
+    "loginname",
+    "managementbly",
+    "Menlo",
+    "Meslo",
+    "minapp",
+    "mkcert",
+    "mockjs",
+    "musnow",
+    "noredirect",
+    "nprogress",
+    "ollin",
+    "opreation",
+    "overrided",
+    "Parens",
+    "payingmember",
+    "pinglun",
+    "pinia",
+    "Postid",
+    "Powerline",
+    "prefetch",
+    "prettierconfig",
+    "promotepage",
+    "pxtorem",
+    "rocar",
+    "Screenfull",
+    "shenhe",
+    "stylelint",
+    "svgicon",
+    "tabliu",
+    "tabnine",
+    "tinymce",
+    "tradingvolume",
+    "tuijian",
+    "uglifyjs",
+    "unocss",
+    "unplugin",
+    "updatetime",
+    "uploader",
+    "Vant",
+    "Vconsole",
+    "Vetur",
+    "vsicons",
+    "vsvg",
+    "vueg",
+    "vueuse",
+    "vuex",
+    "webpack's",
+    "wechat",
+    "wxss",
+    "yanguodong",
+    "ZNRRMHD"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false,
+  "markdown.extension.toc.plaintext": true,
+  "markdown.extension.toc.orderedList": true,
+  "vsicons.projectDetection.autoReload": true,
+  "explorer.confirmDelete": false,
+  "extensions.ignoreRecommendations": true,
+  "git-graph.commitDetailsView.autoCenter": false,
+  "git-graph.commitDetailsView.fileView.fileTree.compactFolders": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#404040",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "terminal.integrated.tabs.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.gpuAcceleration": "off",
+  "security.workspace.trust.enabled": false,
+  "faker.locale": "zh_CN",
+  "filesize.displayInfoOnTheRightSideOfStatusBar": true,
+  "git.alwaysSignOff": true,
+  "git.suggestSmartCommit": false,
+  "files.trimTrailingWhitespace": true,
+  // 在使用搜索功能时，将这些文件夹/文件排除在外
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/target": true,
+    "**/logs": true
+  },
+  // 这些文件将不会显示在工作空间中
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.js": {
+      "when": "$(basename).ts" //ts编译后生成的js文件将不会显示在工作空中
+    },
+    "**/node_modules": true
+  },
+  "tabnine.experimentalAutoImports": true,
+  "workbench.colorTheme": "SynthWave '84",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.editor.enablePreview": false,
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#00ff00"
+  },
+  "window.zoomLevel": 1,
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      // 超过最大值换行
+      "printWidth": 100,
+      // 缩进字节数
+      "tabWidth": 2,
+      // 缩进不使用tab，使用空格
+      "useTabs": false,
+      // 句尾添加分号
+      "semi": true,
+      // 使用单引号代替双引号,false 不替换
+      "singleQuote": true,
+      // (x) => {} 箭头函数参数只有一个时是否要有小括号
+      "arrowParens": "avoid",
+      // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
+      "bracketSpacing": true,
+      // 在对象或数组最后一个元素后面是否加逗号: es5 / none / all，默认值：es5
+      "trailingComma": "none",
+      // 每行单个属性
+      "singleAttributePerLine": true
+    }
+  },
+  // 超过最大值换行
+  "prettier.printWidth": 100,
+  // 缩进字节数
+  "prettier.tabWidth": 2,
+  // 缩进不使用tab，使用空格
+  "prettier.useTabs": false,
+  // 句尾添加分号
+  "prettier.semi": true,
+  // 使用单引号代替双引号,false 不替换
+  "prettier.singleQuote": true,
+  // (x) => {} 箭头函数参数只有一个时是否要有小括号
+  "prettier.arrowParens": "avoid",
+  // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
+  "prettier.bracketSpacing": true,
+  // 在对象或数组最后一个元素后面是否加逗号: es5 / none / all，默认值：es5
+  "prettier.trailingComma": "none",
+  // 每行单个属性
+  "prettier.singleAttributePerLine": true,
+  // 文件头部注释格式
+  "fileheader.customMade": {
+    "Description": "当前文件功能描述",
+    "Author": "git config user.name && git config user.email",
+    "Date": "Do not edit",
+    "LastEditors": "git config user.name && git config user.email",
+    "LastEditTime": "Do not edit",
+    "FilePath": "no item name"
+  }
+}
